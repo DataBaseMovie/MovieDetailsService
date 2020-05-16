@@ -1,4 +1,4 @@
-package com.next.movie.details.utils;
+package com.next.movie.details.constants.enums;
 
 /**
  * The enum Months.

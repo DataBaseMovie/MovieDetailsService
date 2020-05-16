@@ -2,7 +2,7 @@ package com.next.movie.details.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.next.movie.details.utils.Months;
+import com.next.movie.details.constants.enums.Months;
 
 import javax.validation.constraints.NotNull;
 import java.text.DecimalFormat;

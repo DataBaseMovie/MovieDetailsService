@@ -42,7 +42,7 @@ public class DetailsMovieController {
         return new RestTemplate();
     }
 
-    @RequestMapping(value="/film/details/{movie_id}", method = RequestMethod.GET)
+    @RequestMapping(value="/movie/details/{movie_id}", method = RequestMethod.GET)
     @ResponseBody
     public String GetDetailsData(@PathVariable String movie_id) {
 
